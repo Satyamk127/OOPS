@@ -1,9 +1,9 @@
+
 class Animal {
 
     String name;
     int age;
 
-  
     Animal() {
         System.out.println("Animal created");
     }
@@ -14,7 +14,6 @@ class Animal {
         this.age = age;
     }
 
- 
     void display() {
         System.out.println("Name: " + this.name);
         System.out.println("Age: " + this.age);
@@ -40,12 +39,14 @@ class Animal {
     }
 }
 
-class ThisKeyword{
-  public static void main(String[] args) {
-      Animal a = new Animal();
-      Animal b = new Animal("parrote",20);
-      // b.show();
-      // b.callPass();
-      a.getObject();
-  }
+class ThisKeyword {
+
+    public static void main(String[] args) {
+        Animal a = new Animal();
+        Animal b = new Animal("parrote", 20);
+        // b.show();
+        // b.callPass();
+        a.getObject();
+
+    }
 }
